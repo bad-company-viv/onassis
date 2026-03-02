@@ -1,0 +1,193 @@
+<html class="dark"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#2b8cee",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk"]
+          },
+          borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 px-6 py-4 lg:px-20">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">shield</span>
+<h2 class="text-xl font-bold tracking-tight uppercase">Onasis Defense</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Solutions</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Technology</a>
+<a class="text-sm font-medium text-primary" href="#">Performance</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden md:flex items-center bg-slate-100 dark:bg-slate-800 rounded px-3 py-1.5 border border-slate-200 dark:border-slate-700">
+<span class="material-symbols-outlined text-slate-500 text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-48 placeholder:text-slate-500" placeholder="Search systems..." type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white text-xs font-bold uppercase tracking-wider px-6 py-2.5 rounded transition-all">
+          Request Technical Specs
+        </button>
+</div>
+</header>
+<main class="flex-1 max-w-7xl mx-auto w-full px-6 py-12 lg:px-20">
+<!-- Page Header -->
+<div class="mb-12">
+<h1 class="text-4xl lg:text-5xl font-bold tracking-tight mb-4">Engineering Precision &amp; Metrics</h1>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl text-lg">
+          Institutional-grade defense solutions engineered for mission-critical reliability in extreme operational environments.
+        </p>
+</div>
+<!-- Performance Metrics Stats Bar -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200 dark:bg-slate-800 border border-slate-200 dark:border-slate-800 rounded mb-16 overflow-hidden">
+<div class="bg-background-light dark:bg-background-dark p-8 flex flex-col gap-2">
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest">Blast Attenuation</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-primary">95%+</span>
+<span class="material-symbols-outlined text-primary text-sm">verified</span>
+</div>
+<p class="text-xs text-slate-400 mt-2">Tested against STANAG 4569</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-8 flex flex-col gap-2">
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest">Ballistic Rating</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-primary">Level IV+</span>
+<span class="material-symbols-outlined text-primary text-sm">security</span>
+</div>
+<p class="text-xs text-slate-400 mt-2">NIJ 0101.06 Certified</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-8 flex flex-col gap-2">
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest">Operational Range</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-primary">-40°C / +55°C</span>
+<span class="material-symbols-outlined text-primary text-sm">thermostat</span>
+</div>
+<p class="text-xs text-slate-400 mt-2">Extreme weather endurance</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-8 flex flex-col gap-2">
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest">Material Grade</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-primary">Aerospace Comp.</span>
+<span class="material-symbols-outlined text-primary text-sm">precision_manufacturing</span>
+</div>
+<p class="text-xs text-slate-400 mt-2">Carbon-reinforced matrix</p>
+</div>
+</div>
+<!-- Technology Overview Section -->
+<div class="flex flex-col lg:flex-row gap-16 items-start">
+<!-- Left: Visual Aspect (3D View Simulation) -->
+<div class="w-full lg:w-1/2 group">
+<div class="relative aspect-square w-full rounded-xl bg-slate-100 dark:bg-slate-900 overflow-hidden border border-slate-200 dark:border-slate-800">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
+<div class="absolute inset-0 flex items-center justify-center p-12">
+<div class="relative w-full h-full flex items-center justify-center">
+<!-- Visual Representation of Exploded View -->
+<div class="absolute w-4/5 h-1/6 bg-slate-300 dark:bg-slate-700 rounded shadow-xl translate-y-[-120px] opacity-40" style="transform: skewY(-10deg) translateY(-80px);"></div>
+<div class="absolute w-4/5 h-1/6 bg-primary/40 rounded shadow-2xl translate-y-[-40px] border border-primary/50" style="transform: skewY(-10deg) translateY(-20px);"></div>
+<div class="absolute w-4/5 h-1/6 bg-slate-400 dark:bg-slate-600 rounded shadow-xl translate-y-[40px]" style="transform: skewY(-10deg) translateY(40px);"></div>
+<div class="absolute w-4/5 h-1/6 bg-slate-500 dark:bg-slate-500 rounded shadow-xl translate-y-[120px] opacity-60" style="transform: skewY(-10deg) translateY(100px);"></div>
+<!-- Label Connectors -->
+<div class="absolute top-1/4 right-0 w-24 h-px bg-primary/40 flex items-center justify-end">
+<span class="absolute right-[-100px] text-[10px] font-bold uppercase tracking-widest text-primary">Strike Face</span>
+</div>
+<div class="absolute bottom-1/4 left-0 w-24 h-px bg-primary/40 flex items-center">
+<span class="absolute left-[-110px] text-[10px] font-bold uppercase tracking-widest text-primary">Energy Abs.</span>
+</div>
+</div>
+</div>
+<img class="absolute inset-0 w-full h-full object-cover opacity-10 mix-blend-overlay" data-alt="Technical 3D render of layered composite armor system" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjbJkbPRzJqp6FbEEn_QwguH-DljDVArvULkva_NkojZBUSaFvBdPWTo6d6QVf81XG2VEren6yGNuMxxUUxVkH-JurmgOVsEtPW6MZyUQbVJRbMqp0oFhnJGDG5OOTCrDEGSjJnxfwnazK-ipZEt8MfOsjUJ0U4oU-3j6P9ISOLSjo68fiT1GM
+JhbgEea-R2QpazrZpDmSP-1o4MGG5ME98J0NOQgcup9PwEQNUbl93hYKHQouVQlPnny7eS57D0hag5m7OCULzBE"/>
+<div class="absolute bottom-6 left-6 right-6">
+<div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded">
+<p class="text-xs font-mono uppercase text-slate-400">System View: MK-7 Armor Architecture</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Technical Details -->
+<div class="w-full lg:w-1/2 flex flex-col gap-8">
+<div>
+<h2 class="text-3xl font-bold mb-4">Technology Overview</h2>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+              Our proprietary composite layering and thermal stabilization technologies provide unmatched protection in the field. The MK-7 series utilizes a modular architecture designed for rapid deployment and multi-hit sustainability.
+            </p>
+</div>
+<div class="space-y-6">
+<div class="flex gap-4 p-5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl shrink-0">layers</span>
+<div>
+<h3 class="font-bold text-lg mb-1">Composite Layering</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400">Multi-layered ballistic fabric integrated with ceramic strike faces, cross-linked for maximum energy dissipation across the entire surface area.</p>
+</div>
+</div>
+<div class="flex gap-4 p-5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl shrink-0">ac_unit</span>
+<div>
+<h3 class="font-bold text-lg mb-1">Thermal Stabilization</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400">Advanced cooling channels maintaining structural integrity under extreme heat and high-velocity friction, reducing thermal signatures by 30%.</p>
+</div>
+</div>
+<div class="flex gap-4 p-5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl shrink-0">grid_view</span>
+<div>
+<h3 class="font-bold text-lg mb-1">Modular Integration</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400">Interface points compatible with global mounting standards for rapid field replacement and hardware upgrades.</p>
+</div>
+</div>
+<div class="flex gap-4 p-5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl shrink-0">monitoring</span>
+<div>
+<h3 class="font-bold text-lg mb-1">Stress Monitoring</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400">Embedded fiber-optic sensors providing real-time structural health monitoring and impact reporting to tactical commands.</p>
+</div>
+</div>
+</div>
+<div class="pt-6 border-t border-slate-200 dark:border-slate-800">
+<button class="flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all uppercase tracking-widest text-sm">
+              View Detailed Technical Whitepaper
+              <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Area -->
+<footer class="bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-12 px-6 lg:px-20 mt-20">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 opacity-50">
+<span class="material-symbols-outlined text-2xl">shield</span>
+<h2 class="text-sm font-bold tracking-tight uppercase">Onasis Defense</h2>
+</div>
+<div class="flex gap-10">
+<a class="text-xs text-slate-500 uppercase font-bold tracking-tighter hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-xs text-slate-500 uppercase font-bold tracking-tighter hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-xs text-slate-500 uppercase font-bold tracking-tighter hover:text-primary transition-colors" href="#">Export Compliance</a>
+</div>
+<div class="text-xs text-slate-500">
+          © 2024 ONASIS DEFENSE. All rights reserved. Professional use only.
+        </div>
+</div>
+</footer>
+</div>
+</body></html>

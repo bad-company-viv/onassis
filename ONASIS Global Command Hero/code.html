@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ONASIS Global Command Hero</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#196ee6",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#0F172A", // Deep Navy as requested
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Public Sans", sans-serif;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 70% 50%, rgba(25, 110, 230, 0.08) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display transition-colors duration-300">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-background-light dark:bg-background-dark">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3 text-primary">
+<span aria-hidden="true" class="material-symbols-outlined text-3xl">shield</span>
+<h2 class="text-slate-900 dark:text-white text-xl font-black leading-tight tracking-tight">ONASIS DEFENSE</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Systems</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Procurement</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Technology</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<label class="hidden md:flex items-center bg-slate-100 dark:bg-slate-800 rounded px-3 h-10 w-full max-w-[240px] border border-transparent focus-within:border-primary">
+<span class="material-symbols-outlined text-slate-400 text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-slate-500" placeholder="Search Inventory" type="text"/>
+</label>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded h-10 px-5 bg-primary text-white text-sm font-bold tracking-wide hover:bg-blue-700 transition-colors">
+                        Partner Login
+                    </button>
+</div>
+</header>
+<!-- Hero Section -->
+<main class="relative flex-1 flex items-center hero-gradient">
+<div class="max-w-7xl mx-auto px-6 md:px-20 py-16 w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<!-- Left Content -->
+<div class="flex flex-col gap-8 z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-primary/10 border border-primary/20 w-fit">
+<span class="material-symbols-outlined text-primary text-sm">verified</span>
+<span class="text-primary text-xs font-bold tracking-widest uppercase">Global Command Specification</span>
+</div>
+<div class="flex flex-col gap-4">
+<h1 class="text-slate-900 dark:text-white text-5xl md:text-6xl font-extrabold leading-[1.1] tracking-tight">
+                                Advanced Defense Systems: <span class="text-primary">Engineered for Operational Superiority</span>
+</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-normal leading-relaxed max-w-xl">
+                                Providing mission-critical ballistic protection and tactical equipment for global government partners. Engineered for durability, safety, and uncompromising operational excellence in high-stakes environments.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 bg-primary text-white text-base font-bold tracking-wide hover:bg-blue-700 shadow-lg shadow-primary/20 transition-all">
+                                Explore Systems
+                            </button>
+<button class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 border-2 border-slate-300 dark:border-slate-700 text-slate-700 dark:text-white text-base font-bold tracking-wide hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
+                                Contact Procurement
+                            </button>
+</div>
+<!-- Trust Indicators -->
+<div class="flex items-center gap-8 pt-12 border-t border-slate-200 dark:border-slate-800">
+<div class="flex flex-col">
+<span class="text-slate-900 dark:text-white text-2xl font-bold">50+</span>
+<span class="text-slate-500 text-xs uppercase tracking-widest">Nations Served</span>
+</div>
+<div class="w-px h-10 bg-slate-200 dark:bg-slate-800"></div>
+<div class="flex flex-col">
+<span class="text-slate-900 dark:text-white text-2xl font-bold">ISO-9001</span>
+<span class="text-slate-500 text-xs uppercase tracking-widest">Certified Quality</span>
+</div>
+<div class="w-px h-10 bg-slate-200 dark:bg-slate-800"></div>
+<div class="flex flex-col">
+<span class="text-slate-900 dark:text-white text-2xl font-bold">24/7</span>
+<span class="text-slate-500 text-xs uppercase tracking-widest">Tactical Support</span>
+</div>
+</div>
+</div>
+<!-- Right Content (Product Showcase) -->
+<div class="relative flex justify-center items-center">
+<!-- Pedestal Effect -->
+<div class="absolute bottom-0 w-64 h-8 bg-slate-800/20 dark:bg-primary/5 blur-2xl rounded-full"></div>
+<div class="relative w-full max-w-[500px] aspect-[4/5] bg-slate-100/50 dark:bg-slate-800/40 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden flex items-center justify-center shadow-2xl group">
+<!-- Tactical Armor Image -->
+<div class="w-full h-full bg-center bg-no-repeat bg-contain p-12 transition-transform duration-700 group-hover:scale-105" data-alt="Modern tactical body armor vest displayed on a professional white studio pedestal" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD3otdPOkb6IPb3Nn0zay99Zw4AtL7puwgUcJU71CICHkPAaxihQRx_h2zOMRU_sHD_W_Jnc-wmOVbszy1QI7PkQJ4xv5lHJLeoQyM1cy8VzOLn5KmKYZPuPjMBF248fdg1anfCZGn0-earQmBO_1OfDehwMOTG8KaCt-bdqT6B9PTdLNUU9w5DQOlKLbvZg2y_hiZ9JTyQT1P2Hy68pANFn2Qon-Td93jE_6MvaBR483yQ33CmLpFcxD4Anfr-ct8u6XUlXTyddT4");'>
+</div>
+<!-- Detail Overlays -->
+<div class="absolute top-6 right-6">
+<div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
+<p class="text-[10px] text-primary font-black uppercase tracking-widest mb-1">Protection Rating</p>
+<p class="text-white text-lg font-bold">Level IV ICW</p>
+</div>
+</div>
+<div class="absolute bottom-6 left-6">
+<div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
+<p class="text-[10px] text-primary font-black uppercase tracking-widest mb-1">Weight Class</p>
+<p class="text-white text-lg font-bold">Ultra-Lightweight</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Capabilities Grid Section -->
+<section class="bg-slate-50 dark:bg-slate-900/50 py-20 px-6 md:px-20 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col gap-4 mb-12">
+<h2 class="text-slate-900 dark:text-white text-3xl font-bold tracking-tight">Strategic Capabilities</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl">Providing a comprehensive ecosystem of defense infrastructure and logistical support for modern security forces.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">shield_with_heart</span>
+<h3 class="text-slate-900 dark:text-white text-xl font-bold mb-2">Ballistic Protection</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Advanced composite materials engineered for maximum personnel safety without compromising mobility.</p>
+</div>
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">public</span>
+<h3 class="text-slate-900 dark:text-white text-xl font-bold mb-2">Global Logistics</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Secure, rapid-response supply chain management specifically optimized for international government agencies.</p>
+</div>
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">biotech</span>
+<h3 class="text-slate-900 dark:text-white text-xl font-bold mb-2">Operational R&amp;D</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Continuous innovation lab focusing on the next generation of tactical gear and digital defense connectivity.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="flex flex-col gap-10 px-6 md:px-20 py-12 bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 text-slate-400">
+<span class="material-symbols-outlined text-2xl">shield</span>
+<span class="font-bold tracking-tight">ONASIS DEFENSE</span>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-8">
+<a class="text-slate-500 hover:text-primary text-sm font-medium transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-primary text-sm font-medium transition-colors" href="#">Terms of Service</a>
+<a class="text-slate-500 hover:text-primary text-sm font-medium transition-colors" href="#">Procurement Portal</a>
+<a class="text-slate-500 hover:text-primary text-sm font-medium transition-colors" href="#">Contact Support</a>
+</div>
+<p class="text-slate-500 text-sm">© 2024 ONASIS DEFENSE. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>

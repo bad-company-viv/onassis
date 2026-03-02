@@ -1,0 +1,200 @@
+<html class="dark"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Public Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<div class="relative flex min-h-screen flex-col">
+<!-- Top Navigation Bar -->
+<header class="border-b border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark px-6 lg:px-20 py-4">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-8">
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<span class="material-symbols-outlined text-4xl">shield</span>
+</div>
+<h2 class="text-xl font-black tracking-tight uppercase">ONASIS DEFENSE</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Solutions</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Procurement</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Trust</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Compliance</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden md:flex relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">search</span>
+<input class="bg-slate-100 dark:bg-slate-800 border-none rounded pl-10 pr-4 py-2 text-sm w-48 focus:ring-1 focus:ring-primary" placeholder="Search resources..." type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white text-sm font-bold px-6 py-2.5 rounded transition-all">
+                        Technical Briefing
+                    </button>
+<div class="size-10 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden border border-slate-300 dark:border-slate-700">
+<img alt="Profile" class="w-full h-full object-cover" data-alt="Portrait of a professional defense advisor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjsBQFrIFJfQEc1VhNyT6qysnwhjn-kPNkNT-9VH-rpdKfXtnI_iwnev0MoXSLJej1ybDZOTCM8SnOlmqVPRppuagfaGS4qOrT5u4LeLY9np-6fZLTb2uK9EeTvv4HLkgbUEjyeKXECKssS9Ov0fLRZtTZWpIqPb2p6qD4bRhiyo4DNBAup2dEzz90qg3kzWlzFxZnD7fkzuklqp4tCycqAyFOalir2vrmCEF_IzRd_Yx7vm8HucbzPl6MgGBey6tv3IhOykq2dhE"/>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 w-full max-w-7xl mx-auto px-6 lg:px-20 py-12">
+<!-- Hero Section -->
+<section class="mb-16">
+<div class="max-w-3xl">
+<h1 class="text-4xl lg:text-5xl font-black leading-tight tracking-tight mb-6">Institutional Trust &amp; Procurement</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Providing secure, end-to-end procurement cycles for global defense initiatives. Backed by internationally recognized certifications and a legacy of strategic operational excellence.
+                    </p>
+</div>
+</section>
+<!-- Certifications & Partners -->
+<section class="mb-20">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+<h2 class="text-2xl font-bold tracking-tight">Global Certifications &amp; Institutional Partners</h2>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="ISO 9001" data-alt="ISO 9001 quality management certification logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPvwjoFsO1fuRKwxD1xjUpKRr2W3Bpq5XRXzBy6ferMOMq53WhuGjZIedEkyksQSjwWcnLhT7IanFXW-OxrdHkFULZCNmEtmxttQdc40pds9IjbULsAASqqDLvlSzco6aBCYcZ2tT4vwAEA49Q60IKCkTnUwU5ka5K8cY2QFVawIwFoKpke7TbcCo6NnhhWSymhYUybkOfJj89UMjBd9wIQVC-sjeRON112n3YJANXDXUo3nF9LOiAMejtIZWh4XwPzX7xZdzRLuc"/>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="ITAR" data-alt="ITAR registered defense contractor official logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHvhXWnYvxKA_5RESIe_g6XDjh4yItezenGi9O5MdH7jx8OwQObifw8Z-Rg4iQVqHcsHmdJZ7IQPyxR_EaBfJzG91iuVquMs-C5OmxWVJrCPHCCavawEuqbmpfodEwIXX7S6ylRJdH5VzTu_RRXIdtZKY3FHF5_FyXaYgFT-kCHWu-3o1ZD6RhjGg6f926r9jO39TJyUdyjS-q3YeLN9IsVGsOyGwRdEZqR4J-I0QHqfTKybQvZDQxfP7KHruESpsamFSEtYu63go"/>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="NATO Partner" data-alt="NATO procurement partner certification logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGgkTAULeuuwSwA2qOwBrE5qBKcSdlUGb8bX_BmPMzNdDJ9_Q7h9EUDa2Ll-QKXBK5Fk_j-WJBX4a5moCv2Q3OvMVOAaukTWtSLY7ez2FLh2vE8q9yhkBfHODHG0bChgLKs0ZfctyESvxB097cjheLM04n9DMCRF0hrq1qDg-Kmr9dYNS73da8_DTUE2ktaETJda2Vu11cZEwdTQb7cgJTTeOQd5zaDZnpO9TSpgqi6544YEQSO1hQ51V_AxGT9Np634uA-maortM"/>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="CMMC" data-alt="CMMC cybersecurity maturity model certification logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZWNBRNFy39wGKXA7mbN_0Ja0WifL4LPDLIz4i9g-O5Tm2gHGMc_Ibh4ZFI5SzxpvCwce9ba-iSJkn14NZAURlBAUWfUif-P8tO-fe9tzH8Mt8SmiP5DwM_j8r2V306NtNq-Men9vkFrV64SNKOp_fw6g6BcL48k7jaLWWD4pLAQaHmbJYVoo_tMS393WBJ6dA1d0oxLioEI77z3pz9hj5EVe1xWtvt3xCZlx4I3bV3tvqo5bas9NfWRPJalfyrWtjpIHK_Y4H4vk"/>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="MOD Approved" data-alt="Ministry of Defense approved supplier logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqr7bWVHuef4cMluqFncUckLMJBXPQqvnkXAnz7AR3i4jQ40x2jGeOMEQrto3dZDraP4qhkD3UWfmoi74F-18VQf7THa2r_mWuhuIdpepxzexKvqndfQ0j_ZFvnvVl8M4ZIPfCAi3JThXfq-yjAce3AhWc7PK58owkoZohbd3JxiobU0eBEF2_YxTop_eZV4Tj26X6Tend5PG_czJaAdGfSMeQ3_kHoYS9noUahxQhEWE4jQSoN_EWuUytq1uorV_dGjt16_g1_mA"/>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded border border-slate-200 dark:border-slate-800 flex items-center justify-center grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all aspect-video">
+<img alt="EU Defense Agency" data-alt="European Defense Agency certification badge" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0r7mnTd8cKCTK0s31eSOyK--jPGRiJ4en7-z7v03EUbiRZ1oXruZaQRQs5LY1t1MxErnva8w85natMHj-5SmT37LgE6m1CDWI5Ei_kcOSTlX1JiudczSOJXNf-uxCmoCousgJU_8O2SEhPgNYWzZevL3chx88juw2rf53vNchFP3V5nGOUgBPFovUkvrw3bb7g0cx3fotkXTesSTTMKD2DYd-9jowjC0pp125rio80qiRx5dIS74SgdKcgxN9qgnGpj1UPJFoXaY"/>
+</div>
+</div>
+</section>
+<!-- Procurement Contact Section -->
+<section class="grid lg:grid-cols-2 gap-12 items-start bg-slate-100 dark:bg-slate-900/50 p-8 lg:p-12 rounded-xl border border-slate-200 dark:border-slate-800">
+<div>
+<h2 class="text-3xl font-bold mb-4">Government &amp; Institutional Inquiries</h2>
+<p class="text-slate-600 dark:text-slate-400 mb-8 max-w-lg">
+                        Our procurement specialist team manages complex deployment cycles and logistics for state-level initiatives. Please complete the formal inquiry form to initiate the security clearance verification process.
+                    </p>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded text-primary">
+<span class="material-symbols-outlined">description</span>
+</div>
+<div>
+<h4 class="font-bold">Structured RFPs</h4>
+<p class="text-sm text-slate-500">We accept standardized government RFP formats through our secure portal.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded text-primary">
+<span class="material-symbols-outlined">public</span>
+</div>
+<div>
+<h4 class="font-bold">Global Logistics</h4>
+<p class="text-sm text-slate-500">Tier-1 delivery capabilities to restricted or remote deployment regions.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark p-8 rounded shadow-xl border border-slate-200 dark:border-slate-800">
+<form class="space-y-5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Organization / Entity</label>
+<input class="w-full bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded px-4 py-2.5 text-sm focus:ring-primary focus:border-primary" placeholder="Ministry of Defense, etc." type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Project Scope</label>
+<select class="w-full bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded px-4 py-2.5 text-sm focus:ring-primary focus:border-primary">
+<option>Logistics &amp; Supply Chain</option>
+<option>Strategic Infrastructure</option>
+<option>Cyber Defense</option>
+<option>Tactical Equipment</option>
+</select>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Deployment Region</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">location_on</span>
+<input class="w-full bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded pl-10 pr-4 py-2.5 text-sm focus:ring-primary focus:border-primary" data-location="Global" placeholder="Global Operations Center" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Security Clearance Level</label>
+<div class="grid grid-cols-3 gap-2">
+<button class="border border-slate-200 dark:border-slate-800 px-3 py-2 text-xs font-semibold rounded hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" type="button">Classified</button>
+<button class="border border-primary bg-primary/5 text-primary px-3 py-2 text-xs font-semibold rounded" type="button">Secret</button>
+<button class="border border-slate-200 dark:border-slate-800 px-3 py-2 text-xs font-semibold rounded hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" type="button">Top Secret</button>
+</div>
+</div>
+<div class="space-y-2 pt-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Inquiry Brief</label>
+<textarea class="w-full bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded px-4 py-2.5 text-sm focus:ring-primary focus:border-primary" placeholder="Specify mission-critical requirements..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all">
+<span class="material-symbols-outlined">send</span>
+                            Request Technical Briefing
+                        </button>
+<p class="text-[10px] text-center text-slate-500 dark:text-slate-600 mt-4 leading-relaxed">
+                            Submission of this form implies consent to secure data handling under Onasis Defense compliance protocols. All communications are encrypted end-to-end.
+                        </p>
+</form>
+</div>
+</section>
+</main>
+<footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-background-dark py-12 px-6 lg:px-20">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 grayscale opacity-50">
+<span class="material-symbols-outlined text-2xl">shield</span>
+<span class="font-black text-sm tracking-tight uppercase">ONASIS DEFENSE</span>
+</div>
+<div class="flex gap-8 text-xs font-medium text-slate-500 uppercase tracking-widest">
+<a class="hover:text-primary transition-colors" href="#">Compliance</a>
+<a class="hover:text-primary transition-colors" href="#">Export Controls</a>
+<a class="hover:text-primary transition-colors" href="#">Privacy</a>
+<a class="hover:text-primary transition-colors" href="#">Governance</a>
+</div>
+<p class="text-xs text-slate-500">© 2024 Onasis Defense. Institutional Trust Framework.</p>
+</div>
+</footer>
+</div>
+
+```</body></html>
