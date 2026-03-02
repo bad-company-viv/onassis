@@ -41,11 +41,11 @@ function AboutPage() {
             transition={{ duration: 0.7 }}
           >
             <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary">
-              <span className="h-[1px] w-6 bg-primary block" /> About Onassis
+              <span className="h-[1px] w-6 bg-primary block" /> About Onasis
             </p>
             <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">Engineering Protection Without Compromise</h1>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
-              Onassis Defense develops blast and ballistic systems for critical mission teams operating in high-risk theaters, where durability and trust-based procurement are essential.
+              Onasis Defense develops blast and ballistic systems for critical mission teams operating in high-risk theaters, where durability and trust-based procurement are essential.
             </p>
           </motion.div>
 
@@ -56,7 +56,7 @@ function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-transparent mix-blend-overlay z-10" />
-            <img src={imageSet.eodLive} alt="Onassis bomb disposal platform" className="h-full w-full object-cover" />
+            <img src={imageSet.eodLive} alt="Onasis bomb disposal platform" className="h-full w-full object-cover" />
           </motion.div>
         </div>
       </section>
@@ -110,7 +110,7 @@ function AboutPage() {
           >
             <div>
               <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl">Program Portfolio</h2>
-              <p className="mt-4 text-base leading-relaxed text-slate-600">Representative systems from the current Onassis operational catalog.</p>
+              <p className="mt-4 text-base leading-relaxed text-slate-600">Representative systems from the current Onasis operational catalog.</p>
             </div>
             <a href="/#systems" className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-primary hover:text-primary-dark transition-colors">
               View full catalog <span className="material-symbols-outlined text-[16px]">arrow_forward</span>

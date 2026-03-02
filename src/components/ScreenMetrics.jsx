@@ -36,7 +36,7 @@ function ScreenMetrics() {
             <p className="text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-primary">Applied Science</p>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl lg:text-5xl">Engineered Performance Metrics</h2>
             <p className="mt-5 text-base leading-relaxed text-slate-600 md:text-lg">
-              Onassis platforms leverage advanced polymer matrices and ceramic composites to achieve optimal weight-to-protection ratios.
+              Onasis platforms leverage advanced polymer matrices and ceramic composites to achieve optimal weight-to-protection ratios.
             </p>
 
             <div className="mt-10 grid gap-5 sm:grid-cols-3">

@@ -10,7 +10,7 @@ function Footer() {
               <span className="material-symbols-outlined text-[20px]">shield</span>
             </div>
             <div>
-              <p className="text-sm font-black uppercase tracking-tight text-slate-900">Onassis Defense</p>
+              <p className="text-sm font-black uppercase tracking-tight text-slate-900">Onasis Defense</p>
             </div>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-slate-600 mt-4">
@@ -52,7 +52,7 @@ function Footer() {
 
       <div className="border-t border-slate-100 bg-slate-50 px-6 py-6 text-xs text-slate-500 lg:px-10 relative z-10">
         <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} Onassis Defense. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Onasis Defense. All rights reserved.</p>
           <p className="flex items-center gap-2">
             <span className="material-symbols-outlined text-[14px] text-green-600">lock</span> Institutional Trust Framework
           </p>

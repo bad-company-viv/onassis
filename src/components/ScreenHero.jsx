@@ -52,7 +52,7 @@ function ScreenHero() {
           </motion.div>
 
           <motion.p variants={itemVariants} className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
-            Onassis engineers ballistic protection and tactical equipment for military and institutional partners where reliability, survivability, and procurement readiness are non-negotiable.
+            Onasis engineers ballistic protection and tactical equipment for military and institutional partners where reliability, survivability, and procurement readiness are non-negotiable.
           </motion.p>
 
           <motion.div variants={itemVariants} className="mt-10 flex flex-wrap gap-4">
@@ -69,7 +69,7 @@ function ScreenHero() {
               to="/about"
               className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white/50 px-8 py-4 text-sm font-bold uppercase tracking-[0.1em] text-slate-700 backdrop-blur-md transition-all hover:bg-slate-50 hover:text-slate-900"
             >
-              About Onassis
+              About Onasis
             </Link>
           </motion.div>
 
@@ -95,7 +95,7 @@ function ScreenHero() {
           <div className="hero-media relative aspect-[4/5] lg:aspect-square w-full max-w-xl mx-auto overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-glass">
             <img
               src={imageSet.eodRender}
-              alt="Onassis tactical armor platform"
+              alt="Onasis tactical armor platform"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-[2s] hover:scale-105"
             />
             {/* Tech overlays */}
